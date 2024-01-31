@@ -1,0 +1,107 @@
+body{
+    border: 2px solid deeppink;
+    margin: 0;
+}
+
+.box{
+    height: 600px;
+    display: grid;
+    grid-template-areas: "menul cabeca menur"
+                         "menul conteudo menur"
+                         "menul rodape menur";
+grid-template-rows: 150px 500px 80px; 
+grid-template-columns: 250px 1030px 200px;
+}
+
+.cabeca{
+    grid-area: cabeca;
+    background-color: rgb(123, 0, 145);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cabeca a{
+    padding: 35px;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteudo .cont1{
+    background-color: aquamarine;
+    width: 400px;
+}
+
+.conteudo .cont2{
+    background-color: red;
+    width: 400px;
+}
+
+.conteudo .cont3{
+    background-color: rgb(60, 203, 155);
+    width: 400px;
+}
+
+.menul{
+    grid-area: menul;
+    background-color: rgb(208, 141, 255);
+    display: grid;
+    grid-template-areas: "c1"
+                         "c2"
+                         "c3";
+grid-template-columns: 200px;
+grid-template-rows: 150px 150px 250px;
+}
+
+.c1{
+    grid-area: c1;
+}
+
+.c1 img{
+    width: 200px;
+    height: 130px;
+}
+
+.c2{
+    grid-area: c2;
+    background-color: rgb(174, 53, 205);
+}
+
+.c3{
+    grid-area: c3;
+    background-color: rgb(130, 68, 255);
+}
+
+.menur{
+    grid-area: menur;
+    background-color: rgb(68, 0, 84);
+    display: flex;
+    flex-direction: column;
+}
+
+.menur .p1{
+    background-color: blue;
+    height: 200px;
+}
+
+.menur .p2{
+    background-color: aqua;
+    height: 200px;
+}
+.menur .p3{
+    background-color: cornflowerblue;
+    height: 200px;
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: rgb(41, 0, 70);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 35px;
+}
