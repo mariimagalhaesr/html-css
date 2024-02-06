@@ -1,0 +1,56 @@
+body{
+   background-color: #E6E6FA;
+   font-family:fantasy;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fef5ff;
+}
+
+header > img{
+    height: 100px;
+    width: 150px;
+}
+
+header > nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+
+header nav > a:link{
+    text-decoration: none;
+}
+
+header nav > a:hover{
+    color: #FF00FF;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.conteudo > .box1{
+    background-color: #FFE4E1;
+    width: 80%;
+    height: 400px;
+    flex: 1;
+}
+
+.conteudo > .box2{
+    background-color: 	#FFF0F5;
+    width: 20%;
+    height: 400px;
+    flex: 4;
+}
+
+.rodape{
+    background-color: #D8BFD8;
+    height: 150px;
+}
+
