@@ -17,17 +17,18 @@ header > img{
 header > nav{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 200px;
+    justify-content: space-between;
 }
 
 header nav > a:link{
     text-decoration: none;
+    padding: 0 10px;
 }
 
 header nav > a:hover{
     color: #FF00FF;
 }
+
 
 .conteudo{
     display: flex;
@@ -48,9 +49,45 @@ header nav > a:hover{
     height: 400px;
     flex: 4;
 }
-
+.forms{
+    height: 410px;
+    background-color: rgb(255, 244, 251);
+}
 .rodape{
     background-color: #D8BFD8;
     height: 150px;
 }
 
+table, th, td {
+    border: 2px black solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th{
+    background-color: rgb(218, 105, 255);
+    font-size: x-large;
+  }
+
+  td{
+    background-color: rgb(221, 199, 255);
+  }
+
+  .pessoais{
+    background-color: #D8BFD8;
+
+  }
+
+  .profissionais{
+    background-color: #acacff;
+  }
+
+  .pessoais .profissionais{ 
+    display: flex;
+    grid-area: pessoais profissinais;
+    grid-template-areas:;
+ }
