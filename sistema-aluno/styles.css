@@ -1,12 +1,12 @@
 body{
    background-color: #E6E6FA;
-   font-family:fantasy;
+   font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #fef5ff;
+    background-color: #f0b7f7;
 }
 
 header > img{
@@ -50,12 +50,15 @@ header nav > a:hover{
     flex: 4;
 }
 .forms{
-    height: 410px;
+    height: 500px;
     background-color: rgb(255, 244, 251);
+    text-align: center;
+    padding-top: 5px;
 }
+
 .rodape{
     background-color: #D8BFD8;
-    height: 150px;
+    height: 180px;
 }
 
 table, th, td {
@@ -78,16 +81,35 @@ table, th, td {
   }
 
   .pessoais{
-    background-color: #D8BFD8;
-
+    background-color: #f8dcf9;
   }
 
   .profissionais{
-    background-color: #acacff;
+    background-color: rgb(195, 195, 255);
   }
 
-  .pessoais .profissionais{ 
+  h3{
+    text-align: center;
+  }
+
+  .pessoais, .profissionais{
     display: flex;
-    grid-area: pessoais profissinais;
-    grid-template-areas:;
- }
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+  }
+
+  .endereco , .cidadeestado ,  .formacao , .ocupacao, .enderecoaluno, .idadealuno, .emailaluno, .senha, .salvar {
+    padding: 10px;
+  
+  }
+
+  .nome, .localtrabalho, .nomealuno{
+    padding: 3px;
+    
+  }
+
+ 
+
+
+  
