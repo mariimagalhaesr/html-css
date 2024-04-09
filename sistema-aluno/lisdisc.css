@@ -1,0 +1,71 @@
+body {
+    background-color: #f8edf8;
+    font-family: -apple-system;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5e6eb;
+}
+
+header>.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>img {
+    height: 100px;
+    width: 150px;
+}
+
+header .cabecalho>a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .cabecalho>a:hover {
+    color: #FF00FF;
+}
+
+.box {
+    display: grid;
+    grid-template-areas: "lista";
+}
+
+.lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rodape {
+    background-color: #ec97af;
+    height: 150px;
+}
+
+.lista {
+    background-color: #fffcff;
+    padding: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    font-size: large;
+    background-color: #f7b5c7;
+}
+
+td {
+    background-color: #f5e6eb;
+}

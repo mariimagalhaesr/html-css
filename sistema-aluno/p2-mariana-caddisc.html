@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disciplina</title>
+    <link rel="stylesheet" href="caddisc.css" />
+  </head>
+  <body>
+    
+     <header>
+        <img src="download.jpeg" alt="" />
+      <div class="cabecalho">
+        <a href="index.html">Home</a>
+        <a href="aluno.html">Aluno</a>
+        <a href="professor.html">Professor</a>
+        <a href="p2-mariana-lisdisc.html">Lista de Disciplinas</a>
+      </div>
+      <img src="download.jpeg" alt="" />
+    </header>
+
+    <main>
+      <div class="conteudo">
+        <div class="formulario">
+          <h3>Cadastro de Disciplina</h3>
+          <form class="formsdisciplina" action="p2-mariana-caddisc.html"></form>
+
+          <label for="nome">Nome da Disciplina</label>
+          <input type="text" name="nome" class="nome" />
+
+          <label for="professor">Responsável pela Disciplina</label>
+          <input type="text" name="professor" class="professor" />
+
+          <label for="id">ID da Disciplina</label>
+          <input type="text" name="id" class="id" />
+
+          
+          <label for="ch">Carga Horária</label>
+          <input style="width: 100%; box-sizing: border-box;" type="number" name="ch" class="ch" />
+         
+          <div class="espacamento">
+            <label for="semestre">Semestre</label>
+            <input type="number" name="semestre" class="semestre" />
+
+            <label for="notamin">Nota mínima para aprovação</label>
+            <input type="number" name="notamin" class="notamin" />
+          </div>
+
+          <div class="espacamento">
+          <label for="datacadastro">Data de Cadastro</label>
+          <input type="date" name="datacadastro" class="datacadastro" />
+
+          <label for="anoletivo">Ano Letivo</label>
+          <input type="number" name="anoletivo" class="anoletivo">
+
+        </div>
+
+        <button>Salvar</button>
+      </div>
+    </main>
+
+    <div class="rodape"></div>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    background-color: #f8edf8;
+    font-family: -apple-system;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5e6eb;
+}
+
+header>.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>img {
+    height: 100px;
+    width: 150px;
+}
+
+header .cabecalho>a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .cabecalho>a:hover {
+    color: #FF00FF;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo>.box1 {
+    background-color: #f1c8d4;
+    width: 20%;
+    flex: 4;
+    min-height: 800px;
+}
+
+.conteudo>.box2 {
+    background-color: #f1cfd9;
+    width: 20%;
+    flex: 1;
+    min-height: 800px;
+}
+
+
+.rodape {
+    background-color: #ec97af;
+    height: 200px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    font-size: x-large;
+    background-color: #ec97af;
+}
+
+td {
+    background-color: #fffcff;
+}
+
+h3 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.formulario{
+    background-color: #f5e6eb;
+    margin: 10px 100px;
+    padding: 10px;
+}
+
+input[type="text"]{
+    width: 100%;
+    border: 2px solid deeppink;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    margin: 6px 0;
+}
+
+select{
+    width: 30%;
+    border: 2px solid deeppink;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    margin: 6px 0;
+}
+
+input[type="number"], input[type=tel]{
+    width: 30%;
+    border: 2px solid deeppink;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    margin: 6px 0;
+}
+
+
+input[type="password"], input[type=tel]{
+    width: 30%;
+    border: 2px solid deeppink;
+    box-sizing:border-box;
+    padding: 12px 10px;
+    margin: 6px 0;
+}
+
+
+.espacamento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
