@@ -1,14 +1,14 @@
 <h2>Requisitos: SIS - Aluno<h2>
 
-<p>
-  1. Melhorar alinhamento, cores e a estética num geral
-  2. Adicionar funcionalidades
-  3. Permitir excluir, alterar e adicionar professores, alunos e disciplinas
-  4. Completar página inicial permitindo que por ela, seja possível acessar página do professor, alunos e disciplina
-  5. Adicionar banco de dados para giuardar dados de cadastro
-  6. 
-  7. 
+  1. Melhorar alinhamento no cadastro
+  2. Padronizar css nas páginas
+  3. Permitir excluir, alterar e adicionar discplinas
+  4. Permitir excluir, alterar e adicionar professores
+  5. Permitir excluir, alterar e adicionar alunos
+  6. Completar página inicial permitindo que por ela, seja possível acessar página do professor, alunos e disciplina
+  7. Adicionar banco de dados para guardar respostas do cadastro
   8. 
+  9. 
+  10. 
 
-</p>
 
