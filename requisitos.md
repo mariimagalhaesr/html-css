@@ -1,4 +1,4 @@
-<h2>Requisitos: SIS - Aluno<h2/>
+<h2>Requisitos: SIS - Aluno</h2>
 
   1. Melhorar alinhamento nos cadastros de professor aluno e disciplina
   2. Padronizar css nas páginas
